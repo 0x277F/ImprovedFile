@@ -1,6 +1,7 @@
 package __0x277F.io.file;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,7 +16,7 @@ import java.util.List;
  * Simplifies the use of a File object
  *
  */
-public class BetterFile extends java.io.File implements Serializable {
+public class BetterFile extends File implements Serializable {
 public BetterFile(String arg0) {
 		super(arg0);
 	}
